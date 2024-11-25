@@ -7,7 +7,7 @@
 _Reality is your canvas_
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Core](https://img.shields.io/badge/core-inspatial.dev-brightgreen.svg)](https://www.inspatial.dev)
+[![Dev](https://img.shields.io/badge/dev-inspatial.dev-brightgreen.svg)](https://www.inspatial.dev)
 [![App](https://img.shields.io/badge/app-inspatial.app-purple.svg)](https://www.inspatial.app)
 [![Cloud](https://img.shields.io/badge/cloud-inspatial.cloud-yellow.svg)](https://www.inspatial.cloud)
 [![Store](https://img.shields.io/badge/store-inspatial.store-red.svg)](https://www.inspatial.store)
