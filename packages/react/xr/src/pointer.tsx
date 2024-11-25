@@ -10,7 +10,7 @@ import {
   createLinesPointer,
   createRayPointer,
   createTouchPointer,
-} from '@pmndrs/pointer-events'
+} from '@inspatial/pointer-events'
 import { Group, Mesh, Object3D } from 'three'
 import { createPortal, useFrame, useStore, useThree } from '@react-three/fiber'
 import {
@@ -21,12 +21,12 @@ import {
   bindPointerXRInputSourceEvent,
   updatePointerCursorModel,
   updatePointerRayModel,
-} from '@pmndrs/xr/internals'
+} from '@inspatial/xr/internals'
 import { useXR } from './xr.js'
 import { combinedPointerContext } from './contexts.js'
 
 //for checking if `event.pointerState` is from an xr input source
-export { type XRInputSourceState, isXRInputSourceState } from '@pmndrs/xr/internals'
+export { type XRInputSourceState, isXRInputSourceState } from '@inspatial/xr/internals'
 
 /**
  * component for combining multiple pointer into one so that only one pointer is active at each time

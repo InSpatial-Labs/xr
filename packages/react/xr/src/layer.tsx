@@ -12,7 +12,7 @@ import {
   setupXRImageLayer,
   setXRLayerRenderTarget,
   createXRLayerRenderTarget,
-} from '@pmndrs/xr'
+} from '@inspatial/xr'
 import {
   addEffect,
   context,
@@ -54,7 +54,7 @@ import {
   WebGLRenderTarget,
 } from 'three'
 import { create, StoreApi, UseBoundStore } from 'zustand'
-import { forwardObjectEvents } from '@pmndrs/pointer-events'
+import { forwardObjectEvents } from '@inspatial/pointer-events'
 
 export type XRLayerProperties = XRLayerOptions &
   XRLayerDynamicProperties &

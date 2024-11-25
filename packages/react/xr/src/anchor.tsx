@@ -1,4 +1,4 @@
-import { requestXRAnchor, XRAnchorOptions } from '@pmndrs/xr'
+import { requestXRAnchor, XRAnchorOptions } from '@inspatial/xr'
 import { useState, useRef, useCallback, useEffect, useMemo } from 'react'
 import { useXR, useXRStore } from './xr.js'
 
@@ -8,7 +8,7 @@ export {
   //requestXRPersistentAnchor,
   //loadXRPersistentAnchor,
   //deleteXRPersistentAnchor,
-} from '@pmndrs/xr'
+} from '@inspatial/xr'
 
 /**
  * hook that returns a function that allows to request a xr anchor

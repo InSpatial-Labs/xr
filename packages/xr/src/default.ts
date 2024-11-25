@@ -1,4 +1,4 @@
-import { GrabPointerOptions, RayPointerOptions, TouchPointerOptions } from '@pmndrs/pointer-events'
+import { GrabPointerOptions, RayPointerOptions, TouchPointerOptions } from '@inspatial/pointer-events'
 import { PointerCursorModelOptions } from './pointer/cursor.js'
 import { PointerRayModelOptions } from './pointer/ray.js'
 import { XRControllerModelOptions } from './controller/model.js'

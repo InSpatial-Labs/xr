@@ -1,4 +1,4 @@
-import { ForwardEventsOptions, forwardHtmlEvents } from '@pmndrs/pointer-events'
+import { ForwardEventsOptions, forwardHtmlEvents } from '@inspatial/pointer-events'
 import { addEffect, EventManager, useThree } from '@react-three/fiber'
 import { useEffect } from 'react'
 

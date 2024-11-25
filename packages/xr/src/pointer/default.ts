@@ -1,4 +1,4 @@
-import { Pointer } from '@pmndrs/pointer-events'
+import { Pointer } from '@inspatial/pointer-events'
 
 export function defaultGrabPointerOpacity(pointer: Pointer) {
   if (pointer.getButtonsDown().size > 0) {

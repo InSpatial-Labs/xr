@@ -1,7 +1,7 @@
-import { XRInputSourceState } from '@pmndrs/xr/internals'
+import { XRInputSourceState } from '@inspatial/xr/internals'
 import { createContext } from 'react'
 import { XRStore } from './xr.js'
-import { CombinedPointer } from '@pmndrs/pointer-events'
+import { CombinedPointer } from '@inspatial/pointer-events'
 
 export const xrContext = createContext<XRStore | undefined>(undefined)
 export const xrInputSourceStateContext = createContext<XRInputSourceState | undefined>(undefined)

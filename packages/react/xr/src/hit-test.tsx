@@ -1,10 +1,10 @@
 import { forwardRef, RefObject, useCallback, useEffect, useImperativeHandle, useRef, useState } from 'react'
-import { createXRHitTestSource, GetWorldMatrixFromXRHitTest, requestXRHitTest } from '@pmndrs/xr'
+import { createXRHitTestSource, GetWorldMatrixFromXRHitTest, requestXRHitTest } from '@inspatial/xr'
 import { useXRStore } from './xr.js'
 import { Group, Matrix4, Object3D } from 'three'
 import { GroupProps, useFrame } from '@react-three/fiber'
 
-export { createXRHitTestSource, requestXRHitTest, type GetWorldMatrixFromXRHitTest } from '@pmndrs/xr'
+export { createXRHitTestSource, requestXRHitTest, type GetWorldMatrixFromXRHitTest } from '@inspatial/xr'
 
 /**
  * hook for creating a hit test source originating from the provided object or xrspace

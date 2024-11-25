@@ -3,7 +3,7 @@ import {
   cloneXRHandGltf,
   configureXRHandModel,
   createUpdateXRHandVisuals,
-} from '@pmndrs/xr/internals'
+} from '@inspatial/xr/internals'
 import { ReactNode, forwardRef, useImperativeHandle, useMemo } from 'react'
 import { XRSpace, useXRSpace } from './space.js'
 import { useFrame, useLoader } from '@react-three/fiber'

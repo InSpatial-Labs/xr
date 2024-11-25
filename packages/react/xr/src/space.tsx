@@ -1,4 +1,4 @@
-import { createGetXRSpaceMatrix } from '@pmndrs/xr/internals'
+import { createGetXRSpaceMatrix } from '@inspatial/xr/internals'
 import { RootState, useFrame } from '@react-three/fiber'
 import {
   ReactNode,

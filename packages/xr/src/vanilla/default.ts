@@ -39,7 +39,7 @@ import {
   createTouchPointer,
   createLinesPointer,
   GetCamera,
-} from '@pmndrs/pointer-events'
+} from '@inspatial/pointer-events'
 import { onXRFrame } from './utils.js'
 import { XRSpaceType } from './types.js'
 

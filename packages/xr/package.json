@@ -1,22 +1,24 @@
 {
-  "name": "@pmndrs/xr",
-  "author": "Bela Bohlender",
+  "name": "@inspatial/xr",
+  "author": "InSpatial Labs",
   "type": "module",
-  "description": "VR/AR for threejs",
-  "homepage": "https://github.com/pmndrs/xr",
-  "version": "0.0.0",
+  "description": "XR Renderer",
+  "homepage": "https://www.inspatial.xr",
+  "version": "0.1.0",
   "keywords": [
-    "r3f",
+    "spatial",
     "xr",
     "ar",
     "vr",
+    "mr",
     "three.js",
     "react",
+    "r3f",
     "typescript"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:pmndrs/xr.git"
+    "url": "git@github.com:inspatial-labs/xr.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "scripts": {
@@ -31,7 +33,7 @@
   },
   "dependencies": {
     "@iwer/devui": "^0.2.1",
-    "@pmndrs/pointer-events": "workspace:^",
+    "@inspatial/pointer-events": "workspace:^",
     "iwer": "^1.0.3",
     "meshline": "^3.3.1",
     "zustand": "^4.5.2"

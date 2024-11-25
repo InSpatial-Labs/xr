@@ -8,7 +8,7 @@ import type {
   XRScreenInputState,
   XRTransientPointerState,
 } from '../input.js'
-import { ForwardEventsOptions, forwardHtmlEvents, GetCamera } from '@pmndrs/pointer-events'
+import { ForwardEventsOptions, forwardHtmlEvents, GetCamera } from '@inspatial/pointer-events'
 import {
   DefaultXRControllerOptions,
   DefaultXRGazeOptions,

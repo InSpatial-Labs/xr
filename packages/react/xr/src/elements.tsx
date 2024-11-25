@@ -4,7 +4,7 @@ import { xrInputSourceStateContext, xrSpaceContext } from './contexts.js'
 import { useXR } from './xr.js'
 import { objectToKey } from './utils.js'
 import { XRSpace } from './space.js'
-import { resolveInputSourceImplementation } from '@pmndrs/xr/internals'
+import { resolveInputSourceImplementation } from '@inspatial/xr/internals'
 import { useXRSessionVisibilityState } from './hooks.js'
 import {
   DefaultXRController,

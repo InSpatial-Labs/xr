@@ -1,9 +1,9 @@
-import { Pointer } from '@pmndrs/pointer-events'
+import { Pointer } from '@inspatial/pointer-events'
 import {
   makeTeleportTarget,
   TeleportPointerRayModel as TeleportPointerRayModelImpl,
   TeleportPointerRayModelOptions,
-} from '@pmndrs/xr'
+} from '@inspatial/xr'
 import { ThreeEvent, useFrame, useStore } from '@react-three/fiber'
 import { forwardRef, ReactNode, useEffect, useImperativeHandle, useMemo, useRef } from 'react'
 import { Group, Vector3 } from 'three'

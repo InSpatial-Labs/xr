@@ -1,4 +1,4 @@
-import { Pointer } from '@pmndrs/pointer-events'
+import { Pointer } from '@inspatial/pointer-events'
 import { BoxGeometry, Mesh, Object3D, PlaneGeometry } from 'three'
 import { onXRFrame } from './utils.js'
 import { PointerRayMaterial, PointerRayModelOptions, updatePointerRayModel } from '../pointer/ray.js'

@@ -5,7 +5,7 @@ import {
   XRInputSourceStateMap,
   XRScreenInputState,
   XRTransientPointerState,
-} from '@pmndrs/xr/internals'
+} from '@inspatial/xr/internals'
 import { useXR } from './xr.js'
 import { xrInputSourceStateContext } from './contexts.js'
 import { useContext, useEffect } from 'react'

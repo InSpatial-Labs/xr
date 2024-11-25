@@ -11,9 +11,9 @@ import {
   Vector3Tuple,
 } from 'three'
 import { MeshLineGeometry, MeshLineMaterial } from 'meshline'
-import { Pointer } from '@pmndrs/pointer-events'
+import { Pointer } from '@inspatial/pointer-events'
 import { clamp } from 'three/src/math/MathUtils.js'
-import { AllowedPointerEvents, AllowedPointerEventsType, PointerOptions } from '@pmndrs/pointer-events/dist/pointer'
+import { AllowedPointerEvents, AllowedPointerEventsType, PointerOptions } from '@inspatial/pointer-events/dist/pointer'
 
 /**
  * marks its children as teleportable

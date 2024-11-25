@@ -8,14 +8,14 @@ import {
   XRState as BaseXRState,
   XRStore as BaseXRStore,
   XRStoreOptions as BaseXRStoreOptions,
-} from '@pmndrs/xr/internals'
+} from '@inspatial/xr/internals'
 import { Camera, useFrame, useThree, useStore as useRootStore } from '@react-three/fiber'
 import { ComponentType, ReactNode, useContext, useEffect, useMemo } from 'react'
 import { useStore } from 'zustand'
 import { combinedPointerContext, xrContext } from './contexts.js'
 import { XRElements } from './elements.js'
-import { setupSyncIsVisible } from '@pmndrs/xr'
-import { CombinedPointer } from '@pmndrs/pointer-events'
+import { setupSyncIsVisible } from '@inspatial/xr'
+import { CombinedPointer } from '@inspatial/pointer-events'
 
 type XRElementImplementation = {
   /**

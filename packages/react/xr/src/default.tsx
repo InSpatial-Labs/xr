@@ -14,7 +14,7 @@ import {
   createTeleportRayLine,
   syncTeleportPointerRayGroup,
   buildTeleportTargetFilter,
-} from '@pmndrs/xr/internals'
+} from '@inspatial/xr/internals'
 import { useRef, Suspense, useContext, useMemo } from 'react'
 import { Group, Mesh, Object3D } from 'three'
 import { XRControllerModel } from './controller.js'
@@ -47,7 +47,7 @@ export {
   defaultGrabPointerOpacity,
   defaultRayPointerOpacity,
   defaultTouchPointerOpacity,
-} from '@pmndrs/xr/internals'
+} from '@inspatial/xr/internals'
 
 function DefaultXRInputSourceGrabPointer(
   event: 'select' | 'squeeze',

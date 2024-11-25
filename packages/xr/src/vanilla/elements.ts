@@ -11,7 +11,7 @@ import {
   createDefaultXRTransientPointer,
 } from './default.js'
 import { XRSpaceType } from './types.js'
-import { CombinedPointer, GetCamera } from '@pmndrs/pointer-events'
+import { CombinedPointer, GetCamera } from '@inspatial/pointer-events'
 import { setupSyncIsVisible } from '../visible.js'
 
 export function setupSyncXRElements(

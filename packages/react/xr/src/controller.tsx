@@ -11,7 +11,7 @@ import {
   XRControllerLayoutLoaderOptions,
   XRControllerModelOptions,
   XRControllerState,
-} from '@pmndrs/xr/internals'
+} from '@inspatial/xr/internals'
 import { createPortal, useFrame } from '@react-three/fiber'
 import { Object3D } from 'three'
 import { useXRInputSourceStateContext } from './input.js'

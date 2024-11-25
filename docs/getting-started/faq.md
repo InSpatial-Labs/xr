@@ -64,7 +64,7 @@ WebGPU is finding its way to more and more devices. However, AR and VR devices d
 
 If you are targeting only handheld AR experiences (e.g., for smartphones), you can use dom overlay. Here's a [tutorial for using XRDomOverlays](../tutorials/dom-overlay.md) in your `react-three/xr` experience.
 
-For non-handheld VR and AR experiences, you can use [react-three/uikit](https://github.com/pmndrs/uikit), which renders user interfaces directly inside the 3D scene and is aligned with HTML and CSS concepts.
+For non-handheld VR and AR experiences, you can use [inspatial/kit](https://github.com/inspatial-labs/kit), which renders user interfaces directly inside the 3D scene and is aligned with HTML and CSS concepts.
 
 ## Does it work on iOS?
 

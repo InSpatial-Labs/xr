@@ -5,7 +5,7 @@ import {
   type XRControllerLocomotionRotationOptions,
   type XRControllerLocomotionTranslationOptions,
   createXRControllerLocomotionUpdate,
-} from '@pmndrs/xr/internals'
+} from '@inspatial/xr/internals'
 import { useXRStore } from './xr.js'
 
 /**

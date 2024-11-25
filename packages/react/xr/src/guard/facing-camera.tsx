@@ -1,4 +1,4 @@
-import { isFacingCamera } from '@pmndrs/xr'
+import { isFacingCamera } from '@inspatial/xr'
 import { useFrame, useThree } from '@react-three/fiber'
 import { ReactNode, RefObject, useRef, useState } from 'react'
 import { Group, Vector3 } from 'three'

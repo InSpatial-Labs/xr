@@ -1,7 +1,7 @@
 import { forwardRef, useEffect, useMemo, useState } from 'react'
 import { MeshProps, useFrame } from '@react-three/fiber'
 import { BufferGeometry, Mesh } from 'three'
-import { updateXRPlaneGeometry } from '@pmndrs/xr/internals'
+import { updateXRPlaneGeometry } from '@inspatial/xr/internals'
 import { useXR } from './xr.js'
 
 /**

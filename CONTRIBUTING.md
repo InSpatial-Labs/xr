@@ -1,23 +1,70 @@
-## Contributing
+# 🚀 Contributing to InSpatial Dev (XR)
 
-This project uses [semantic commits](https://conventionalcommits.org) and [semver](https://semver.org).
+First off, thank you for considering contributing to InSpatial! It's people like you that make this project such a great tool. 🎉
 
-To get started, make sure you have [Node](https://nodejs.org) and [PNPM](https://pnpm.io/) installed. Install dependencies, generate files, and build the libraries with:
+## 🌟 How Can I Contribute?
 
-```bash
-pnpm i
-pnpm -r build
-```
+### 🐛 Reporting Bugs
 
-### Development
+1. **Use the GitHub issue tracker** - Check if the bug has already been reported.
+2. **Check the closed issues** - Your issue might have been resolved in a newer version.
+3. **Provide detailed information** - Include steps to reproduce, expected vs actual behavior, and your environment details.
 
-Locally run examples with:
+### 💡 Suggesting Enhancements
 
-```bash
-cd examples/react-three-xr
-pnpm dev
-```
+1. **Use the GitHub issue tracker** - Check if the enhancement has already been suggested.
+2. **Be clear and descriptive** - Explain why this enhancement would be useful to most users.
+3. **Provide examples** - If applicable, share examples of how the feature would work.
 
-**Important**
+### 🛠️ Pull Requests
 
-When making a change to the packages, the `vite` cache of the examples needs to be cleared (delete `node_modules/.vite` inside the running example). Rebuilding the libraries is not necassary unless types have changed.
+1. **Fork the repo and create your branch** from `main`.
+2. **Follow our coding conventions** - Check our style guide below.
+3. **Make sure your code lints** - Run `deno run lint` before submitting.
+4. **Write meaningful commit messages** - Follow the [Conventional Commits](https://www.conventionalcommits.org/) specification.
+5. **Include tests** - New features and bug fixes should include tests.
+
+## 💻 Development Setup
+
+1. Fork and clone the repository
+2. Run `deno install` to install dependencies
+3. Create a branch for your changes
+4. Make your changes
+5. Run tests with `deno test`
+6. Push your branch and submit a pull request
+
+## 🎨 Style Guide
+
+- Use TypeScript for all code
+- Follow functional and declarative programming patterns
+- Use descriptive variable names with auxiliary verbs (e.g., `isLoading`, `hasError`)
+- Structure files: exported component, subcomponents, helpers, static content, types
+- Use [InSpatial Kit](https://inspatial.dev/kit) for components and styling
+- Implement responsive design using a desktop-first approach
+- Use [Motion](https://motion.dev/) for animations and transitions
+
+## 🚀 Release Channels
+
+Choose the release channel that best fits your needs:
+
+| Channel        | Description                           | Installation                          |
+| -------------- | ------------------------------------- | ------------------------------------- |
+| 🟢 **Stable**  | Production-ready release              | `deno install @inspatial/xr`         |
+| 🟡 **Preview** | Usable early access                   | `deno install @inspatial/xr@preview` |
+| 🔴 **Canary**  | Latest features, potentially unstable | `deno install @inspatial/xr@canary`  |
+
+### 🛠️ Quick Install Guide
+
+## 🏆 Recognition
+
+Contributors will be recognized in our `CONTRIBUTORS.md` file. Thank you for your support!
+
+## 📜 Code of Conduct
+
+By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## 🤔 Questions?
+
+Don't hesitate to reach out if you have any questions. We're here to help!
+
+Happy coding! 🎈

@@ -1,4 +1,4 @@
-import { Pointer } from '@pmndrs/pointer-events'
+import { Pointer } from '@inspatial/pointer-events'
 
 export function bindXRInputSourceEvent(
   session: XRSession,
